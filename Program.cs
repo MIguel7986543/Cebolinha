@@ -1,5 +1,12 @@
 ﻿Console.Clear();
-Console.ForegroundColor = ConsoleColor.DarkGreen;
-Console.WriteLine(@"Sou um galoto malandlinho e muito inteligente que semple esta tlamando 
-planos pala dellotar aquela golducha da Monica e me tolna o dono da lua!!");
-Console.ResetColor();
+String nomeDigitado;
+String nomeLeet; 
+Console.WriteLine();
+nomeDigitado = Console.ReadLine()!;
+nomeLeet = nomeDigitado.Replace("R","L").
+                        Replace("r","l");
+
+
+
+
+Console.WriteLine($" {nomeLeet}!");
